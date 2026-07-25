@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.manifesto-principle {
+  @apply relative pl-6 border-l-4 border-ethic-red py-2;
+}
+
+.manifesto-principle::before {
+  content: attr(data-number);
+  @apply absolute -left-8 top-2 text-3xl font-black text-ethic-red/20;
+}
