@@ -1,3 +1,5 @@
+'use client'
+
 const principles = [
   {
     title: 'Je respecte les limites de vitesse et je ne débride pas mon engin.',
@@ -41,11 +43,17 @@ export default function Charter() {
           <h2 className="text-3xl md:text-4xl font-black mb-4">
             Charte du Trottinetteur Responsable
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-gray-600 mb-6">
             En signant cette charte, je m’engage, en tant qu’usager de trottinette électrique à Lyon
             et dans sa métropole, à adopter une conduite éthique, responsable et respectueuse de
             l’espace public.
           </p>
+          <button
+            onClick={() => window.print()}
+            className="no-print inline-flex items-center px-5 py-2.5 border-2 border-ethic-black text-ethic-black font-bold rounded-full hover:bg-ethic-black hover:text-white transition-colors"
+          >
+            Imprimer la charte
+          </button>
         </div>
 
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">

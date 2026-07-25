@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://samadeus1441.github.io/trottinette-ethique/sitemap.xml

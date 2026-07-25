@@ -22,3 +22,35 @@ body {
   content: attr(data-number);
   @apply absolute -left-8 top-2 text-3xl font-black text-ethic-red/20;
 }
+
+@media print {
+  header,
+  footer,
+  #constat,
+  #ethique,
+  #cadre-legal,
+  #chartes-existantes,
+  #engagement,
+  #petition,
+  #medias,
+  #sources,
+  #partager,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  #charte {
+    display: block !important;
+    padding: 0 !important;
+  }
+
+  .manifesto-principle {
+    break-inside: avoid;
+    border-left-color: #E63946;
+  }
+}
