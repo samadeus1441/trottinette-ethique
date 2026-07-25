@@ -1,3 +1,5 @@
+import CopyButton from './CopyButton'
+
 export default function MediaKit() {
   return (
     <section id="medias" className="py-20 bg-white">
@@ -10,7 +12,13 @@ export default function MediaKit() {
               pour relayer la campagne.
             </p>
 
-            <h3 className="font-bold text-lg mb-3">Pitch email (100 mots)</h3>
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="font-bold text-lg">Pitch email (100 mots)</h3>
+              <CopyButton
+                label="Copier le pitch"
+                text="Après la publication d'une étude des Hospices Civils de Lyon montrant une explosion des traumatismes crâniens graves chez les adolescents en trottinette électrique (cas multipliés par 25 en cinq ans), un collectif de citoyens lance la « Charte de la Trottinette Éthique » à Lyon. Cette campagne propose une charte de conduite responsable, une pétition et des propositions locales. Seriez-vous intéressés pour en parler à l'antenne ou dans vos colonnes ?"
+              />
+            </div>
             <blockquote className="border-l-4 border-ethic-red pl-4 italic text-gray-700 mb-6">
               Après la publication d’une étude des Hospices Civils de Lyon montrant une explosion
               des traumatismes crâniens graves chez les adolescents en trottinette électrique (cas

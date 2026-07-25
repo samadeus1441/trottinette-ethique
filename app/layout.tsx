@@ -18,6 +18,14 @@ export const metadata: Metadata = {
       'Un code citoyen pour des trottinettes électriques responsables à Lyon.',
     type: 'website',
     locale: 'fr_FR',
+    images: [
+      {
+        url: 'https://samadeus1441.github.io/trottinette-ethique/og-image.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Charte de la Trottinette Éthique — Lyon',
+      },
+    ],
   },
 }
 

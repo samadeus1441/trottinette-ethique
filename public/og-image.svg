@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1D1D1D"/>
+  <rect x="60" y="60" width="1080" height="510" rx="20" fill="#E63946" opacity="0.15"/>
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="72" font-weight="900" text-anchor="middle" fill="#ffffff">Charte de la</text>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="96" font-weight="900" text-anchor="middle" fill="#E63946">Trottinette Éthique</text>
+  <text x="600" y="430" font-family="Arial, sans-serif" font-size="40" font-weight="600" text-anchor="middle" fill="#cccccc">Lyon & sa métropole</text>
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#888888">Un code citoyen pour des déplacements responsables</text>
+</svg>
