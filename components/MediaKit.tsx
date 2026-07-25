@@ -46,7 +46,7 @@ export default function MediaKit() {
             </ul>
 
             <h3 className="font-bold text-xl mb-4">Contacts communautaires suggérés</h3>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-8">
               {['r/Lyon', 'r/France', 'Facebook Lyon', 'RadioScoop', 'Le Progrès', 'LyonMag'].map(
                 (label) => (
                   <span
@@ -58,6 +58,14 @@ export default function MediaKit() {
                 )
               )}
             </div>
+
+            <a
+              href="/media-kit.md"
+              download
+              className="inline-flex items-center px-6 py-3 bg-ethic-red text-white font-bold rounded-full hover:bg-red-700 transition-colors"
+            >
+              Télécharger le kit média (.md)
+            </a>
           </div>
         </div>
       </div>

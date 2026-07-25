@@ -4,6 +4,7 @@ import { useState } from 'react'
 
 const navLinks = [
   { href: '#constat', label: 'Le constat' },
+  { href: '#ethique', label: 'Éthique' },
   { href: '#charte', label: 'La charte' },
   { href: '#engagement', label: 'Je signe' },
   { href: '#petition', label: 'Pétition' },

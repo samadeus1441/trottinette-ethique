@@ -1,7 +1,10 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Stats from '@/components/Stats'
+import EthicalFraming from '@/components/EthicalFraming'
 import Charter from '@/components/Charter'
+import LegalFramework from '@/components/LegalFramework'
+import ExistingCharters from '@/components/ExistingCharters'
 import PledgeForm from '@/components/PledgeForm'
 import Petition from '@/components/Petition'
 import MediaKit from '@/components/MediaKit'
@@ -16,7 +19,10 @@ export default function Home() {
       <main>
         <Hero />
         <Stats />
+        <EthicalFraming />
         <Charter />
+        <LegalFramework />
+        <ExistingCharters />
         <PledgeForm />
         <Petition />
         <MediaKit />
