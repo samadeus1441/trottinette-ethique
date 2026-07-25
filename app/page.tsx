@@ -9,6 +9,7 @@ import PledgeForm from '@/components/PledgeForm'
 import Petition from '@/components/Petition'
 import MediaKit from '@/components/MediaKit'
 import Sources from '@/components/Sources'
+import FAQ from '@/components/FAQ'
 import Share from '@/components/Share'
 import Footer from '@/components/Footer'
 
@@ -27,6 +28,7 @@ export default function Home() {
         <Petition />
         <MediaKit />
         <Sources />
+        <FAQ />
         <Share />
       </main>
       <Footer />

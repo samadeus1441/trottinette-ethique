@@ -9,6 +9,7 @@ const navLinks = [
   { href: '#engagement', label: 'Je signe' },
   { href: '#petition', label: 'Pétition' },
   { href: '#medias', label: 'Médias' },
+  { href: '#faq', label: 'FAQ' },
 ]
 
 export default function Header() {
